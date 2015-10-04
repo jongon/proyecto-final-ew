@@ -1,0 +1,25 @@
+{
+  "name": "CursoHtmlyCss",
+  "version": "1.0",
+  "authors": [
+    "Jonathan González <jon.gon1@gmail.com>"
+  ],
+  "description": "Aplicación de gestión de inventario",
+  "license": "MIT",
+  "homepage": "http://www.comentandoelcodigo.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "*",
+    "jquery": "*",
+    "fontawesome": "*",
+    "OwlCarouselBower": "*",
+    "lightbox2": "*"
+  }
+}
