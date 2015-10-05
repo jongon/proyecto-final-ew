@@ -1,0 +1,16 @@
+body {
+    background-color: #1abc9c;
+}
+
+.slider {
+    margin-top: -20px;
+}
+
+.parallax {
+  width: 100%;
+  height: 200px;
+  background-image: url(../img/parallax.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
