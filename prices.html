@@ -1,16 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Teach Logistics ®</title>
+    <link rel="icon" href="favicon.ico" sizes="16x16">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./bower/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./bower/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./bower/OwlCarouselBower/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="./bower/OwlCarouselBower/owl-carousel/owl.theme.css">
     <link rel="stylesheet" href="./bower/lightbox2/dist/css/lightbox.css">
+    <link rel="stylesheet" href="./css/pricing.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">TeachLogistics ®</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="prices.html">Precio</a></li>
+                        <li><a href="gallery.html">Galeria</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" data-toggle="modal" data-target="#login"><i class="fa fa-user"></i> Iniciar Sesión</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#register"><i class="fa fa-user-plus"></i> Registrar</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <br/>
+                <br/>
+                <h3>
+                    Disfruta de nuestros mejores planes y precios
+                    <a href="http://app.teachlogistics.com/" target="_blank" style="text-decoration:none;color:red">app.teachlogistics.com</a>
+                    <br>
+                    <br>
+                </h3>
+                <br/>
+                <br/>
+            </div>
+        </div>
+        <div class="row db-padding-btm db-attached">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="db-wrapper">
+                    <div class="db-pricing-eleven db-bk-color-one">
+                        <div class="price">
+                            <sup>Bs.</sup>99
+                            <small>por año</small>
+                        </div>
+                        <div class="type">
+                            SMALL PLAN
+                        </div>
+                        <ul>
+
+                            <li><i class="glyphicon glyphicon-print"></i>30+ Cuentas </li>
+                            <li><i class="glyphicon glyphicon-time"></i>150+ Proyectos </li>
+                        </ul>
+                        <div class="pricing-footer">
+
+                            <a href="#" class="btn db-button-color-square btn-lg">ORDENAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="db-wrapper">
+                    <div class="db-pricing-eleven db-bk-color-two popular">
+                        <div class="price">
+                            <sup>Bs.</sup>159
+                            <small>por año</small>
+                        </div>
+                        <div class="type">
+                            MEDIUM PLAN
+                        </div>
+                        <ul>
+
+                            <li><i class="glyphicon glyphicon-print"></i>30+ Cuentas </li>
+                            <li><i class="glyphicon glyphicon-time"></i>150+ Proyectos </li>
+                        </ul>
+                        <div class="pricing-footer">
+
+                            <a href="#" class="btn db-button-color-square btn-lg">ORDENAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="db-wrapper">
+                    <div class="db-pricing-eleven db-bk-color-three">
+                        <div class="price">
+                            <sup>Bs.</sup>799
+                            <small>por año</small>
+                        </div>
+                        <div class="type">
+                            ADVANCE PLAN
+                        </div>
+                        <ul>
+
+                            <li><i class="glyphicon glyphicon-print"></i>30+ Cuentas </li>
+                            <li><i class="glyphicon glyphicon-time"></i>150+ Proyectos </li>
+                        </ul>
+                        <div class="pricing-footer">
+
+                            <a href="#" class="btn db-button-color-square btn-lg">ORDENAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
     <footer class="container-fluid">
         <div class="row">
             <article class="container">
@@ -28,9 +154,92 @@
             </article>
         </div>
     </footer>
+    <!-- MODALS -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Iniciar Sesión</h4>
+                </div>
+                <form action="" class="">
+                    <div class="modal-body">
+                        <div class="row">
+                            <article class="col-md-6 col-md-offset-3">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                        <input class="form-control" type="text" placeholder="Usuario" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-key"></i></div>
+                                        <input type="password" class="form-control" placeholder="Contraseña" required>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel2">Registrar Usuario</h4>
+                </div>
+                <form action="" class="">
+                    <div class="modal-body">
+                        <div class="row">
+                            <article class="col-md-6 col-md-offset-3">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Nombre" required class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" placeholder="Apellido" required class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" placeholder="Email" required class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="date" placeholder="Fecha de Nacimiento" required class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" placeholder="Contraseña" required class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" placeholder="Confirmar Contraseña" required class="form-control">
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-primary">Registrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- END MODALS -->
     <script type="text/javascript" src="./bower/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="./bower/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./bower/OwlCarouselBower/owl-carousel/owl.carousel.min.js"></script>
     <script type="text/javascript" src="./bower/lightbox2/dist/js/lightbox.js"></script>
 </body>
+
 </html>

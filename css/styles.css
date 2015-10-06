@@ -1,5 +1,11 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0 0 100px;
 }
 
 .slider {
@@ -31,8 +37,12 @@ body {
 }
 
 footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
     background-color: #2c3e50;
-    min-height: 100px;
     color: #ecf0f1;
 }
 
@@ -58,7 +68,7 @@ footer article {
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
- }
+}
 
  #social-fb:hover {
      color: #3B5998;
@@ -72,3 +82,7 @@ footer article {
  #social-em:hover {
      color: #f39c12;
  }
+
+.envelope {
+    padding-top: 70px;
+}
